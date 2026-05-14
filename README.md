@@ -109,4 +109,4 @@ git push -u origin main
 
 ## License
 
-Dual-licensed as MIT OR Apache-2.0.
+Licensed from MIT.
