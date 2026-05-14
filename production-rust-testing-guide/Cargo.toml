@@ -1,0 +1,21 @@
+[package]
+name = "production-rust-testing-guide-examples"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.86"
+description = "Compilable Rust testing examples covering unit tests, should_panic, proptest, mockall, integration tests, and Criterion benchmarks."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/your-org/production-rust-testing-guide-examples"
+keywords = ["rust", "testing", "proptest", "mockall", "criterion"]
+categories = ["development-tools::testing"]
+
+[dependencies]
+
+[dev-dependencies]
+mockall = "0.14"
+proptest = "1"
+criterion = "0.8"
+
+[[bench]]
+name = "fibonacci_bench"
+harness = false
