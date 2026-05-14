@@ -103,7 +103,7 @@ git init
 git add .
 git commit -m "Add corrected Rust testing guide examples"
 git branch -M main
-git remote add origin https://github.com/<your-user>/production-rust-testing-guide-examples.git
+git remote add origin https://github.com/weissmanntobi-del/production-rust-testing-guide-examples.git
 git push -u origin main
 ```
 
